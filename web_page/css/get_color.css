@@ -1,0 +1,71 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#eef;
+}
+#top{
+	float:left;
+	margin:0 0 10px 0;
+	width:6rem;
+	height:40px;
+}
+#container{
+	clear: both;
+	margin:0 auto;
+	width:1000px;
+	height:500px;
+}
+#canvas0{
+	float:left;
+	background:#000;
+}
+#canvas1{/*色条*/
+	float:left;
+	margin:0 0 0 20px;
+	background:#000;
+	cursor:pointer;
+}
+.nav_left{
+	float:left;
+	margin:0 0 0 20px;
+	width:120px;
+	height:500px;
+}
+#color_look{
+	width:150px;
+	height:40px;
+	background:#000;
+	cursor:pointer;
+}
+.rgba{
+	float:left;
+	margin:10px 0 0 0;
+	width:160px;
+	height:40px;
+}
+.rgba input{
+	float:left;
+	width:120px;
+	height:40px;
+	font-size:20px;
+	box-sizing:border-box;
+}
+.rgba span{
+	float:left;
+	width:29px;
+	font-size:14px;
+	line-height:40px;
+	color:#522;
+}
+.rgba p{
+	float:left;
+	width:120px;
+	height:40px;
+	font-size:12px;
+	text-align:center;
+	line-height:40px;
+	color:#d00;
+}
+
